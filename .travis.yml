@@ -31,7 +31,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: bed540fbf8fa64db17eceda257e0fcb1fb7c5eb8
   local_dir: dist/bitcoin-order-app
   on:
     branch: master
